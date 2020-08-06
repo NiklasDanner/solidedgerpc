@@ -30,28 +30,41 @@
 <body>
     <!--//onload="doOnLoad(), autoScroll()"> -->
 
+    <div class="topnav">
+        <a onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">Download</a>
+        <a onclick="window.scrollTo({ top: 530, behavior: 'smooth' })">Overview</a>
+        <a onclick="window.scrollTo({ top: 1000, behavior: 'smooth' })">How to install</a>
+        <a onclick="window.scrollTo({ top: 1630, behavior: 'smooth' })">Enable/Disable</a>
+    </div>
+
     <div class="site_container">
 
         <h1>Solid Edge Discord Rich Presence</h1>
-
+        <p>Discord Rich Presence implementation for Solid Edge</p>
         <hr>
         <br>
 
         <h2> Download</h2>
 
         <div class="pdf_container">
-            <iframe src="https://drive.google.com/embeddedfolderview?id=1cyIUUuPeDus1ZZ743-ZPvwKwOp30wygu#grid" width="100%" height="500" frameborder="0"></iframe>
+            <iframe src="https://drive.google.com/embeddedfolderview?id=1cyIUUuPeDus1ZZ743-ZPvwKwOp30wygu#grid" width="100%" height="300" frameborder="0"></iframe>
         </div>
 
+        <h2>Overview</h2>
+        <ul>
+            <img src="images/discord_1.png">
+        </ul>
         <h2>How to install</h2>
 
         <ul>
             <li>Unzip "SolidEdge Discord RPC Installer.rar"</li>
-            <li>Execute "InstallDiscordRPC.ps1"</li>
+            <li>Right click "InstallDiscordRPC.ps1" and choose "Run with PowerShell"</li>
             <li>The "Release" folder will be removed from the directory - the installion is done.</li>
-            <li>Done.</li>
+            <li>The plugin is now installed.</li>
         </ul>
-
+        <ul>
+            <img src="images/discord_2.png">
+        </ul>
 
         <br>
         <h2>How to enable/disable it</h2>
@@ -59,7 +72,7 @@
             <li>Note that the AddIn will already be enabled when installing it!</li>
             <li>Open Solid Edge and head to the settings</li>
             <img src="images/SolidEdgeSettings.png">
-            <li>Open the "Add-Ins" Subsetting</li>
+            <li>Open the "Add-Ins" subsetting</li>
             <img src="images/AddInSettings.png">
             <li>Enable/Disable it by checking/unchecking "SolidEdge.Community.RichPresenceSolidEdge"</li>
         </ul>
@@ -72,7 +85,7 @@
         <footer>
             <a class="footerLink" href="https://discord.gg/CEVmvRa">Kontakt</a><br>
             <a class="footerLink" href="https://twitter.com/SolidEdgy">Twitter</a><br>
-            <i>SolidEdgy | 2019</i><br>
+            <i>SolidEdgy | 2020</i><br>
         </footer>
 
     </div>
